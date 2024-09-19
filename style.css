@@ -95,7 +95,22 @@ body {
 
 .container2 .images {
     display: flex;
+    justify-content: center;
     margin-bottom: 100px;
+    gap: 65px;
+}
+
+.container2 .images .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 175px;
+}
+
+.container2 .images .item .description {
+    text-align: center;
+    color: gray;
 }
 
 .container2 .images .item .img-placeholder {
@@ -103,4 +118,8 @@ body {
     border-radius: 10px;
     width: 175px;
     height: 175px;
+}
+
+.container3 {
+    background-color: #E5E7EB;
 }
