@@ -8,8 +8,31 @@
     background-color: #1F2937;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .top-section {
     background-color: #1F2937;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section .hero-section {
+    display: flex;
+    margin: 100px 0;
+}
+.hero-section .right-side {
+    min-width: 475px;
+    min-height: 200px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header ul {
