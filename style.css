@@ -123,3 +123,24 @@ body {
 .container3 {
     background-color: #E5E7EB;
 }
+
+.container3 .quote {
+    margin: 150px 300px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.container3 .quote .quote-text, .quote-author {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.container3 .quote .quote-author {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
