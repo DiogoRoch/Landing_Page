@@ -57,7 +57,7 @@ body {
     margin-top: 12px;
 }
 
-.hero-section .right-side {
+.top-section .hero-section .right-side {
     min-width: 550px;
     min-height: 250px;
     background-color: gray;
@@ -77,4 +77,30 @@ body {
 .header .logo {
     margin-right: auto;
     color: #F9FAF8;
+}
+
+.container2 {
+    padding: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2 .subtitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px 0px;
+}
+
+.container2 .images {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.container2 .images .item .img-placeholder {
+    border: solid #3882F6 4px;
+    border-radius: 10px;
+    width: 175px;
+    height: 175px;
 }
