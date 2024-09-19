@@ -4,8 +4,8 @@
     padding: 0;
 }
 
-.dark {
-    background-color: #1F2937;
+.inverse {
+    color: white;
 }
 
 body {
@@ -21,10 +21,22 @@ body {
     flex-direction: column;
 }
 
+.top-section .header .logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.top-section .header a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 .top-section .hero-section {
     display: flex;
     margin: 100px 0;
 }
+
 .hero-section .right-side {
     min-width: 475px;
     min-height: 200px;
